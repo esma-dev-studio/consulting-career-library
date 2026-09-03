@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 検索対象の4ページ。/start/ はメンバー向け案内（noindex）のため含めない -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://escape.kuroma-akuto.com/</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/hp/</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/hp/career/</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/arch/</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+</urlset>
