@@ -1,0 +1,18 @@
+/* Career route only; existing brand, CTA styles and shared art CSS remain unchanged. */
+.ecc-reading{box-sizing:border-box;background:#07131c;color:#fff;padding:88px max(24px,calc((100% - 1120px)/2));scroll-margin-top:92px}
+.ecc-reading__intro{max-width:690px;margin-bottom:36px}
+.ecc-reading__eyebrow{color:#d6ae3d;font:600 12px/1.5 "Noto Sans JP",sans-serif;letter-spacing:.2em;margin:0 0 12px}
+.ecc-reading h2{font:600 clamp(26px,3vw,36px)/1.5 "Noto Serif JP",serif;letter-spacing:.035em;margin:0 0 16px}
+.ecc-reading__intro>p:last-child{color:#bdc9d3;font-size:15px;line-height:1.95;margin:0}
+.ecc-reading__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.ecc-reading__card{display:flex;flex-direction:column;position:relative;min-width:0;background:#0b2235;border:1px solid #385163;border-radius:14px;padding:25px 23px;color:#fff;text-decoration:none;transition:background-color .18s,border-color .18s}
+.ecc-reading__card:hover{background:#123047;border-color:#d6ae3d}
+.ecc-reading__card:focus-visible{outline:3px solid #f1cc65;outline-offset:4px}
+.ecc-reading__number{font:500 18px/1.5 Georgia,serif;color:#d6ae3d;margin-bottom:14px}
+.ecc-reading__card h3{font:600 18px/1.65 "Noto Sans JP",sans-serif;margin:0 0 12px;overflow-wrap:anywhere}
+.ecc-reading__card p{font:400 14px/1.9 "Noto Sans JP",sans-serif;color:#bdc9d3;margin:0 0 24px}
+.ecc-reading__link{font:600 13px/1.8 "Noto Sans JP",sans-serif;color:#f1cc65;margin-top:auto}
+@media(max-width:1023px){.ecc-reading__grid{grid-template-columns:repeat(2,minmax(0,1fr))}header .ecc-career-desktop-nav{display:none!important}header .ecc-career-menu-button{display:block!important}header .ecc-career-mobile-menu{display:block!important}}
+@media(min-width:1024px){header .ecc-career-desktop-nav{gap:22px}}
+@media(max-width:599px){.ecc-reading{padding:60px 20px}.ecc-reading__grid{grid-template-columns:1fr;gap:14px}.ecc-reading__card{padding:22px}.ecc-reading__intro{margin-bottom:28px}.ecc-reading__card h3{font-size:18px}.ecc-reading__card p{margin-bottom:16px}}
+@media(prefers-reduced-motion:reduce){.ecc-reading__card{transition:none}}
