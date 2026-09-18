@@ -176,6 +176,11 @@ details.more[open] summary{margin-bottom:10px}
   .pc{display:none}
   .sec{padding:42px 0}
   .inner,.hero-inner,.flow{padding-left:16px;padding-right:16px}
+  /* 6ステップ帯は2列×3段（3列だと見出しが1文字だけ折り返すため） */
+  .flow{grid-template-columns:repeat(2,1fr)}
+  .flow-item:nth-child(3){border-right:1px solid rgba(255,255,255,.12)}
+  .flow-item:nth-child(2n){border-right:0}
+  .flow-item:nth-child(-n+4){border-bottom:1px solid rgba(255,255,255,.12)}
   .sec-title{font-size:20px}
   .step{grid-template-columns:44px 1fr;gap:0 12px}
   .step-rail::before{left:21px}
