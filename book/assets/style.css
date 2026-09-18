@@ -132,6 +132,15 @@ body.cover{background:var(--paper)}
 .cta-title{margin:0 0 10px;font-family:var(--serif);font-weight:700;font-size:22px;line-height:1.5}
 .cta-text{margin:0 0 18px;color:#e5e7eb;font-size:15px;line-height:1.85}
 
+/* ---- 目次：Amazon誘導（はじめに／おわりに） ---- */
+.toc-item.ext a{border-left-color:var(--gold);background:var(--gold-tint)}
+.toc-item.ext .toc-num{font-size:22px;color:var(--gold-dark)}
+.toc-item.ext .toc-title{color:var(--gold-dark)}
+.toc-item.ext .toc-arrow{color:var(--gold-dark)}
+.about a{color:var(--navy2);font-weight:700}
+.cta-card .inline-link{color:var(--gold-light);font-weight:700}
+.foot-copy a{color:#cbd5e1}
+
 /* ---- レスポンシブ ---- */
 @media (max-width:640px){
   body{font-size:15.5px}
