@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 検索対象の4ページ。/start/ はメンバー向け案内（noindex）のため含めない -->
+<!-- 検索対象ページ。/start/ はメンバー向け案内（noindex）のため含めない。/book/ は『超ショートカット勉強法』無料公開版 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://escape.kuroma-akuto.com/</loc>
@@ -16,5 +16,29 @@
   <url>
     <loc>https://escape.kuroma-akuto.com/arch/</loc>
     <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/book/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/book/ch1.html</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/book/ch2.html</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/book/ch3.html</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/book/ch4.html</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://escape.kuroma-akuto.com/book/ch5.html</loc>
+    <lastmod>2026-09-18</lastmod>
   </url>
 </urlset>
