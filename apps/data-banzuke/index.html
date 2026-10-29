@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>data-banzuke-uploader | データ番付</title>
+<style>
+:root { --ink:#2b2f36; --muted:#5f6670; --navy:#0f2540; --line:#d9dde3; --soft:#f4f6f9; --link:#1a4fa0; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: #ffffff; color: var(--ink); font-size: 16px; line-height: 1.85;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "Noto Sans JP", system-ui, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { color: var(--navy); font-size: 1.55rem; line-height: 1.45; margin: 0 0 8px; overflow-wrap: anywhere; }
+.lead { color: var(--muted); margin: 0 0 8px; }
+.meta { color: var(--muted); font-size: .9rem; margin: 0 0 28px; }
+h2 { color: var(--navy); font-size: 1.12rem; line-height: 1.5; border-bottom: 2px solid var(--navy); padding-bottom: 4px; margin: 40px 0 12px; }
+h3 { color: var(--navy); font-size: 1rem; margin: 26px 0 4px; }
+p, ul { margin: 0 0 12px; }
+ul { padding-left: 1.3em; }
+li { margin-bottom: 4px; }
+code { font-family: Consolas, "Courier New", monospace; background: var(--soft); padding: 1px 6px; border-radius: 4px; font-size: .9em; overflow-wrap: anywhere; }
+a { color: var(--link); overflow-wrap: anywhere; }
+.langnav { font-size: .9rem; margin: 0 0 28px; }
+section.lang + section.lang { margin-top: 56px; padding-top: 8px; border-top: 1px solid var(--line); }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>data-banzuke-uploader</h1>
+<p class="lead">YouTube チャンネル「データ番付」の運営者が使う、動画の投稿用のツールです。</p>
+<p class="langnav">日本語 ・ <a href="#en">English</a></p>
+<section class="lang" id="ja" lang="ja">
+<h2>このツールについて</h2>
+<p>data-banzuke-uploader は、YouTube チャンネル「データ番付」（<a href="https://www.youtube.com/@%E3%83%87%E3%83%BC%E3%82%BF%E7%95%AA%E4%BB%98">youtube.com/@データ番付</a>）の運営者が、自分のチャンネルに動画を上げ、公開の予約をし、自分のチャンネルの再生数などを確かめるために使う、個人用のツールです。</p>
+<p>運営者のパソコンの中で動くプログラムで、一般の人に向けたサービスではありません。運営者以外の人がログインして使うことはありません。</p>
+<h2>使う YouTube API サービスの機能</h2>
+<ul>
+<li><code>youtube.upload</code>：自分のチャンネルへの動画のアップロードと、公開日時の予約</li>
+<li><code>youtube.readonly</code>：自分のチャンネル・動画・再生リストの情報の読み取り</li>
+<li><code>youtube.force-ssl</code>：自分の動画の説明欄と再生リストの更新</li>
+<li><code>yt-analytics.readonly</code>：自分のチャンネルの再生数などの統計の読み取り</li>
+</ul>
+<h2>関連するページ</h2>
+<ul>
+<li><a href="./privacy/">プライバシーポリシー</a></li>
+<li><a href="https://www.youtube.com/t/terms">YouTube 利用規約</a></li>
+<li><a href="https://policies.google.com/privacy">Google プライバシー ポリシー</a></li>
+</ul>
+</section>
+<section class="lang" id="en" lang="en">
+<h2>About this app</h2>
+<p>data-banzuke-uploader is a private tool used only by the operator of the YouTube channel データ番付 (Data Banzuke) (<a href="https://www.youtube.com/@%E3%83%87%E3%83%BC%E3%82%BF%E7%95%AA%E4%BB%98">youtube.com/@データ番付</a>). It uploads videos to the operator's own channel, schedules their publication, updates the operator's own video descriptions and playlists, and reads the operator's own channel statistics through the YouTube API Services.</p>
+<p>It runs on the operator's own computer. It is not offered to the public, and no one other than the operator signs in to it.</p>
+<h2>YouTube API Services scopes used</h2>
+<ul>
+<li><code>youtube.upload</code>: Upload videos to the operator's own channel and schedule their publication</li>
+<li><code>youtube.readonly</code>: Read information about the operator's own channel, videos and playlists</li>
+<li><code>youtube.force-ssl</code>: Update the descriptions and playlists of the operator's own videos</li>
+<li><code>yt-analytics.readonly</code>: Read view counts and other statistics of the operator's own channel</li>
+</ul>
+<h2>Related pages</h2>
+<ul>
+<li><a href="./privacy/">Privacy Policy</a></li>
+<li><a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a></li>
+<li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+</ul>
+</section>
+<footer>最終更新：2026年10月29日 ／ Last updated: October 29, 2026</footer>
+</main>
+</body>
+</html>
